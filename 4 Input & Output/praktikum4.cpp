@@ -11,7 +11,7 @@ int main() {
 
     cout << "Masukkan NIM : "; cin >> nim;
     cin.ignore(); // biar getline tidak ke skip
-    cout << "Masukkan Nama : "; cin >> nama;
+    cout << "Masukkan Nama : "; getline(cin, nama);
     cout << "Masukkan Nilai Keaktifan : "; cin >> nilaiKeaktifan;
     cout << "Masukkan Nilai Tugas : "; cin >> nilaiTugas;
     cout << "Masukkan Nilai UTS : "; cin >> nilaiUTS;

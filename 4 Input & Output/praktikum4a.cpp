@@ -9,7 +9,7 @@ int main() {
 
     cout << "Masukkan usia : ";
     cin >> usia;
-
+    
     cout << "Usia Anda adalah " << usia << " tahun" << endl;
 
     return 0;
