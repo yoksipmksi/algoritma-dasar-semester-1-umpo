@@ -10,6 +10,10 @@ int main() {
 
     if (a < b) {
         cout << "nilai variabel a lebih kecil dari b" << endl;
+    } else if (a > b) {
+        cout << "nilai variabel a lebih besar dari b" << endl;
+    } else {
+        cout << "nilai variabel a sama dengan b" << endl;
     }
 
     return 0;
